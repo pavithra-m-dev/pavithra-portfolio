@@ -37,7 +37,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <a key={item.name} href={item.href} className="text-sm text-gray-300 transition-all duration-200 hover:text-cyan-400">{item.name}</a>
           ))}
-          <a href="/Pavithra_M_Resume_ATS.pdf" download className="rounded-full border border-cyan-400/50 px-5 py-2 text-sm font-medium text-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-black">Resume</a>
+          <a href="/Pavithra_M_Frontend_Developer_Resume.pdf" download className="rounded-full border border-cyan-400/50 px-5 py-2 text-sm font-medium text-cyan-400 transition-all duration-300 hover:bg-cyan-400 hover:text-black">Resume</a>
         </div>
 
         <button onClick={() => setMenuOpen(!menuOpen)} className="text-2xl text-white md:hidden" aria-label="Toggle menu">{menuOpen ? "✕" : "☰"}</button>
@@ -49,7 +49,7 @@ export default function Navbar() {
             {navItems.map((item) => (
               <a key={item.name} href={item.href} onClick={() => setMenuOpen(false)} className="text-gray-300 transition-colors hover:text-cyan-400">{item.name}</a>
             ))}
-            <a href="/Pavithra_M_Resume_ATS.pdf" download onClick={() => setMenuOpen(false)} className="w-fit rounded-full border border-cyan-400/50 px-5 py-2 text-sm text-cyan-400">Download Resume</a>
+            <a href="/Pavithra_M_Frontend_Developer_Resume.pdf" download onClick={() => setMenuOpen(false)} className="w-fit rounded-full border border-cyan-400/50 px-5 py-2 text-sm text-cyan-400">Download Resume</a>
           </div>
         </div>
       )}

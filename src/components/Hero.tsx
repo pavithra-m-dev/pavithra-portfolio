@@ -36,7 +36,7 @@ export default function Hero() {
 
             <motion.div initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.55 }} className="mt-7 flex flex-wrap gap-3">
               <motion.a href="#projects" whileHover={{ y: -3, scale: 1.02 }} whileTap={{ scale: 0.97 }} className="rounded-lg bg-cyan-400 px-5 py-2.5 text-sm font-semibold text-black shadow-lg shadow-cyan-400/10 transition-shadow duration-300 hover:shadow-cyan-400/25">View Projects</motion.a>
-              <motion.a href="/Pavithra_M_Resume_ATS.pdf" download whileHover={{ y: -3 }} whileTap={{ scale: 0.97 }} className="rounded-lg border border-zinc-800 px-5 py-2.5 text-sm font-semibold text-zinc-300 transition-all duration-300 hover:border-cyan-400/40 hover:text-cyan-400">Resume</motion.a>
+              <motion.a href="/Pavithra_M_Frontend_Developer_Resume.pdf" download whileHover={{ y: -3 }} whileTap={{ scale: 0.97 }} className="rounded-lg border border-zinc-800 px-5 py-2.5 text-sm font-semibold text-zinc-300 transition-all duration-300 hover:border-cyan-400/40 hover:text-cyan-400">Resume</motion.a>
             </motion.div>
 
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.7 }} className="mt-6 flex flex-wrap gap-2">
